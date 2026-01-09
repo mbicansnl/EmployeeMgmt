@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Merriweather+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --sn-primary: #01324b;
+    --sn-secondary: #0070a8;
+    --sn-focus: #0088cc;
+    --sn-accent: #f58220;
+    --sn-grey-100: #f8f8f8;
+    --sn-grey-200: #f3f3f3;
+    --sn-grey-300: #dadada;
+    --sn-grey-400: #999999;
+    --sn-grey-500: #666666;
+    --sn-grey-600: #555555;
+    --sn-grey-700: #222222;
+    --sn-grey-900: #000000;
+}
+
+.filament-app {
+    font-family: "Merriweather Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--sn-grey-100);
+}
+
+.filament-sidebar {
+    background-color: var(--sn-primary);
+    color: #ffffff;
+}
+
+.filament-sidebar .fi-sidebar-item:hover,
+.filament-sidebar .fi-sidebar-item-active {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fi-topbar {
+    border-bottom: 1px solid var(--sn-grey-200);
+    background: #ffffff;
+}
+
+.fi-card {
+    border-radius: 1.25rem;
+    border: 1px solid var(--sn-grey-200);
+    box-shadow: 0 20px 45px rgba(1, 50, 75, 0.08);
+}
+
+.fi-btn-primary {
+    background-color: var(--sn-secondary);
+}
+
+.fi-btn-primary:hover {
+    background-color: var(--sn-focus);
+}
+
+.fi-link {
+    color: var(--sn-focus);
+}
+
+.fi-badge {
+    background-color: var(--sn-accent);
+    color: #ffffff;
+}
